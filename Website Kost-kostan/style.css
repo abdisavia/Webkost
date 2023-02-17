@@ -60,7 +60,7 @@
     font-weight: 100;
     color : #82AAE3;
     animation-name: opacityanimation;
-    animation-duration : 5s;
+    animation-duration : 3s;
 }
 
 
@@ -70,7 +70,7 @@
     font-size : 20pt;
     color : grey;
     animation-name: opacityanimation;
-    animation-duration : 5s;
+    animation-duration : 3s;
 }
 
 .isi button{
@@ -84,7 +84,7 @@
     margin-right : 20px;
     margin-top : 20px;
     animation-name:opacityanimation;
-    animation-duration : 5s;
+    animation-duration : 3s;
 }
 
 .buttonlogin1{
@@ -105,7 +105,7 @@
     width : 500px;
     height : auto;
     animation-name:positionImageAnimation1;
-    animation-duration:5s;
+    animation-duration:3s;
 }
 
 .isi2{
@@ -190,12 +190,13 @@
     height: 300px;
     resize:none;
     margin-bottom : 10px;
+    overflow : hidden;
 }
 
 .inputEmail{
     display : block;
     border : 4px solid rgba(130,170,227,1);
-    border-radius : 30px;
+    border-radius : 25px;
     width  : 597px;
     height : 50px;
     font-family : Poppins, verdana, arial;
