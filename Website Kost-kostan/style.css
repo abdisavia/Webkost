@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*Animation*/
+@keyframes opacityanimation{
+    from {opacity:0;}
+    to{opacity: 1;}
+}
+
+@keyframes positionImageAnimation1{
+    from {opacity : 0; 
+          right: -50px;}
+    to{opacity : 1;
+       right: 0px;}
+}
+
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.LogoHeader {
+    margin:inherit;
+    width : 100%;
+    padding-top : 20px;
+    padding-left : 60px;
+    padding-bottom : 20px;
+    background-image : linear-gradient(to bottom, rgba(255,255,255,1) , rgba(255,255,255,0) 100px);
+    position: fixed;
+    z-index: 3;
+}
+
+.logo{
+    width : 60px;
+    height : 60px;
+    background-color: #D9D9D9;
+    border-radius: 100%;
+}
+
+.namaBrand{
+    padding-left : 5px;
+    font-Family : MADE sunflower, sans-serif;
+    color : #82B479;
+    font-size : 25px;
+}
+
+.isi{
+    width : inherit;
+    padding : 8% 4.4% 8% 4.4%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(130,170,227,1));
+}
+
+.isi table{
+    margin: auto;
+}
+
+.selamatdatang{
+    font-family:  MADE sunflower, verdana, sans-serif;
+    font-size : 90px;
+    font-weight: 100;
+    color : #82AAE3;
+    animation-name: opacityanimation;
+    animation-duration : 5s;
+}
+
+
+.isi1{
+    margin-top : 5px;
+    font-family : Poppins, arvo, sans-serif;
+    font-size : 20pt;
+    color : grey;
+    animation-name: opacityanimation;
+    animation-duration : 5s;
+}
+
+.isi button{
+    border: 3px solid #91D8E4;
+    color : #91D8E4;
+    border-radius : 35px;
+    font-size : 20px;
+    font-weight: 600;
+    font-family : 'Poppins', verdana, sans-serif;
+    background : none;
+    margin-right : 20px;
+    margin-top : 20px;
+    animation-name:opacityanimation;
+    animation-duration : 5s;
+}
+
+.buttonlogin1{
+    padding :12px 30px 12px 31px ;
+    
+}
+
+.buttonsignup1{
+    padding : 12px 19px 12px 19px;
+}
+
+.isi button:hover{
+    background-color : #91D8E4;
+    color : white;
+}
+.imgAwal2{
+    position : relative;
+    width : 500px;
+    height : auto;
+    animation-name:positionImageAnimation1;
+    animation-duration:5s;
+}
+
+.isi2{
+    background-color : rgba(130,170,227,1);
+    padding : 8% 4.4% 8% 4.4%;
+}
+
+.isi2 table{
+    width: inherit;
+}
+
+.TentangKami{
+    position: relative;
+    text-align:right;
+    top: -10px;
+    font-family: made Sunflower, montserrat, sans-serif;
+    font-size: 35pt;
+    color: white;
+}
+
+.isi2Ten{
+    padding-left: 100px;
+    width: 500px;
+    font-size: 15pt;
+    font-family:Poppins,verdana,sans-serif;
+    text-align:justify;
+    color: white;
+}
+
+.imgIsi2{
+    position:relative;
+    z-index: 2;
+}
+
+.imgIsi2Deco1{
+    position:absolute;
+    top: 700px;
+    left: 470px;
+    width: 180px;
+    height: auto;
+    z-index : 1;
+}
+
+.imgIsi2Deco2{
+    position:absolute;
+    top: 1050px;
+    right: 0px;
+    width: 100px;
+    opacity: 70%;
+}
+
+.Isi3{
+    width: auto;
+    height: 450px;
+    background-image:linear-gradient(to bottom, rgba(130,170,227,1), rgba(130,170,227,0) 100px);
+    padding: 10% 4.4% 10% 4.4%;
+}
+
+.Komentar{
+    font-family: made sunflower, montserrat, sans-serif;
+    font-size: 35pt;
+    color: #82B479;
+    margin-bottom : 20px;
+}
+
+.isiKomentar{
+    width:546px;
+    height:285px;
+    border: 5px solid #82AAE3;
+    border-radius:50px;
+}
+
+.txtKomentar{
+    display : block;
+    border : 4px solid rgba(130,170,227,1);
+    border-radius : 50px;
+    padding : 10px 30px 10px 30px;
+    font-family : Poppins, verdana, arial;
+    font-size : 20pt;
+    color :grey;
+    width: 548px;
+    height: 300px;
+    resize:none;
+    margin-bottom : 10px;
+}
+
+.inputEmail{
+    display : block;
+    border : 4px solid rgba(130,170,227,1);
+    border-radius : 30px;
+    width  : 597px;
+    height : 50px;
+    font-family : Poppins, verdana, arial;
+    font-size : 13pt;
+    color : grey;
+    padding-left : 20px;
+}
+
+.Isi3 table{
+    width: 100%;
+    margin : auto;
+}
+
+.btnKirim{
+    margin-top: 10px;
+    background :none;
+    border: 4px solid #91D8E4;
+    border-radius : 50px;
+    padding : 10px 30px 10px 30px;
+    font-size : 13pt;
+    font-family : Poppins, verdana, arial;
+}
+
+.Isi3 button:hover{
+    background-color : #91D8E4;
+    color : white;
+}
+
+.Isi3 table tr td{
+    position : relative;
+    margin : auto;
+}
+
+.kontenKomentar p{
+    margin: auto;
+    font-family: Poppins, verdana, arial, sans-serif;
+    font-size : 15pt;
+    text-align : center;
+    color : #82B479;
+    word-wrap : break-word;
+}
+
+div .image{
+    background-color: lightgrey;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin : auto;
+}
+
+.kontenKomentar{
+    width: 70%;
+    margin : auto;
+    position : relative;
+}
+
+.kontenKomentar p{
+    margin-bottom : 20px;
+}
+
+.panah{
+    width: 100%;
+    position : absolute;
+    top : 48%;
+    padding : auto;
+}
+
+.next{
+    position : relative;
+    left: 80%;
+}
+
+.next:hover{
+    cursor : pointer;
+}
+
+.prev{
+    position: relative;
+    left : 5%;
+}
+
+.prev{
+    cursor : pointer;
+}
+
+body .container{
+    border : 5px solid rgba(145, 216, 228,1);
+    border-radius : 50px;
+}

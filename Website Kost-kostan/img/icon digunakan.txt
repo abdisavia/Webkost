@@ -1,0 +1,3 @@
+ rumah :  fi-sr-home
+ login :   fi-sr-user
+ Logout :  fi-sr-power
