@@ -9,7 +9,13 @@
     <style>
 
       @keyframes animasiGambar{
-        from{}
+        from{left : -100px; opacity: 0%;}
+        to{left : 50px; opacity : 100%;}
+      }
+
+      @keyframes transisi{
+        from{right: 0px; opacity : 0%;}
+        to{right: 71px; opacity : 100%;}
       }
 
       body .row{
@@ -23,14 +29,18 @@
       .col, .col-7, .header{
         position: relative;
         display : flex;
-        height:100%;
         align-items : center;
         justify-content: center;
       }
 
       .col-7 img{
-        width: 500px;
+        width: 600px;
+        height: 500px;
         border : none; 
+        position : absolute;
+        left : 50px;
+        animation-name : animasiGambar;
+        animation-duration: 3s;
       }
 
       .layout{
@@ -45,9 +55,15 @@
       }
 
       .back:hover{
-        border : none;  
         background-color: #dc3545;
         color : white;
+      }
+
+      .trans{
+        position : absolute;
+        right : 71px;
+        animation-name: transisi;
+        animation-duration: 3s;
       }
 
     </style>
@@ -60,7 +76,7 @@
       </div>
   
       <div class="col" >
-        <form class="border border-2 border-success rounded-4 w-75 p-5">
+        <form class="border border-2 border-success rounded-4 w-75 p-5 trans">
           <h2 class="header">Login</h2>
           <div class="mb-2">
             <label for="exampleInputEmail1" class="form-label text-success-emphasis">Email address</label>
@@ -77,7 +93,7 @@
           </div>
           <div class="float-end ">
             <button type="submit" class="btn btn-success px-4">Submit</button> <!--Button Submit-->
-            <a href="kost.html" type="_parent"><button type="button"class="btn border border-danger px-2 back">Back</button></a>
+            <a href="kost.html" type="_parent"><button type="button"class="btn border border-danger px-2 back">Back</button></a> <!-- button Back -->
           </div>
         </form>
       </div>
